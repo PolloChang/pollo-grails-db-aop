@@ -5,6 +5,8 @@ class DemoController {
     def demoService
 
     def index() {
+        println "DemoController 8"
         demoService.insert()
+        println "DemoController 10"
     }
 }
