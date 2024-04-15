@@ -1,4 +1,4 @@
-package work.pollochang.pollo.grails.db.aop
+package work.pollochang.demo
 
 import grails.gorm.transactions.Transactional
 import work.pollochang.Test1

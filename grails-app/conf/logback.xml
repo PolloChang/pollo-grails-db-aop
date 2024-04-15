@@ -11,6 +11,11 @@
         </encoder>
     </appender>
 
+    <logger name="org.hibernate" level="trace" />
+    <logger name="work.pollochang.pollo.grails.db.aop" level="trace" />
+
+
+
     <root level="error">
         <appender-ref ref="STDOUT" />
     </root>
