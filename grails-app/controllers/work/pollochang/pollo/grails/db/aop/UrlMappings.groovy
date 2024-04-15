@@ -1,4 +1,4 @@
-package pollo.grails.db.aop
+package work.pollochang.pollo.grails.db.aop
 
 class UrlMappings {
 
@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(controller: "demo", action: "index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

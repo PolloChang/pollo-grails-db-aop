@@ -12,7 +12,7 @@ buildscript {
 }
 
 version "0.1"
-group "pollo.grails.db.aop"
+group "work.pollochang.pollo.grails.db.aop"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
