@@ -11,8 +11,9 @@
         </encoder>
     </appender>
 
-    <logger name="org.hibernate" level="error" />
-    <logger name="work.pollochang.pollo.grails.db.aop" level="error" />
+    <logger name="org.hibernate" level="trace" />
+    <logger name="work.pollochang.demo" level="trace" />
+    <logger name="work.pollochang.pollo.grails.db.aop" level="trace" />
 
 
 
