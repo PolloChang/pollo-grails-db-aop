@@ -12,8 +12,11 @@
 </head>
 
 <body>
-<g:form controller="demo" action="index">
-    <g:submitButton name="insert" value="新增資料" />
-</g:form>
+<div>
+    <a href="${createLink(controller: "demo", action:"index" )}" >新增資料</a>
+</div>
+<div>
+    <a href="${createLink(controller: "demo", action:"testSql" )}" >測試SQL</a>
+</div>
 </body>
 </html>
